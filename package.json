@@ -2,7 +2,7 @@
   "name": "pokemon-finder",
   "version": "1.0.0",
   "description": "simple pokemon search app based on public API",
-  "main": "index.html",
+  "main": "dist/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
