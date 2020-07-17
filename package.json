@@ -1,0 +1,19 @@
+{
+  "name": "pokemon-finder",
+  "version": "1.0.0",
+  "description": "simple pokemon search app based on public API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddemau/pokemon-finder.git"
+  },
+  "author": "David Demau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviddemau/pokemon-finder/issues"
+  },
+  "homepage": "https://github.com/daviddemau/pokemon-finder#readme"
+}
