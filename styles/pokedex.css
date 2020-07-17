@@ -1,0 +1,174 @@
+/* -------------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* -------------------------------------------------- */
+* {
+  outline: none;
+}
+
+body {
+  background: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(232, 191, 0);
+}
+
+button {
+  background-color: white;
+  color: rgb(232, 191, 0);
+  border: 2px solid rgb(232, 191, 0);
+  padding: 8px 15px;
+  font-weight: 300;
+  transition: all 0.2s;
+  border-radius: 290486px;
+  position: absolute;
+  left: 80%;
+  top: 5%;
+}
+
+button:hover {
+  background-color: rgb(232, 191, 0);
+  color: #fff;
+}
+
+/* -------------------------------------------------- */
+/* INPUT FIELD */
+/* -------------------------------------------------- */
+
+form {
+  max-width: 65%;
+  margin: 50px auto;
+  font-size: 25px;
+  text-align: center;
+  font-family: monospace;
+}
+
+input {
+  padding: 25px;
+  float: left;
+  font-size: 20px;
+  width: 94%;
+	border: blue;
+	color: #aaa;
+	font-weight: bold;
+  line-height: 3;
+  border: 5px solid #0071b9;
+  border-width: 0 0 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* -------------------------------------------------- */
+/* MAIN LIST */
+/* -------------------------------------------------- */
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+li {
+  width: 94%;
+  background: white;
+  list-style: none;
+  padding: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-shadow: 2px 0 10px rgba(0,0,0,.2);
+          box-shadow: 2px 0 10px rgba(0,0,0,.2);
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.name:hover {
+  background: rgb(228, 228, 228);
+}
+
+span {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+img {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+/* -------------------------------------------------- */
+/* DETAILS TABS */
+/* -------------------------------------------------- */
+
+.details {
+  background: #f2f2f2;
+  font-size: 50%;
+  display: none;
+}
+
+.detail-title {
+  color: orange;
+  font-weight: bold;
+  font-size: 110%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* -------------------------------------------------- */
+/* MEDIAS QUERIES */
+/* -------------------------------------------------- */
+
+@media only screen and (max-width: 1023px) {
+  form {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  form {
+    max-width: 100%;
+    font-size: 18px;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  form {
+    font-size: 12px;
+  }
+
+  button {
+    font-size: 80%;
+    padding: 4px 7px;
+  }
+
+  .details {
+    background: #f2f2f2;
+    font-size: 80%;
+    display: none;
+  }
+
+  img {
+    width: 20px;
+    height: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+}
